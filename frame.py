@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 
 # Write a program that prints out the position, frame, and letter of the DNA
-# Try coding this with a single loop
+# Try coding this with a single loop 
 # Try coding this with nested loops
 
-dna = 'ATGGCCTTT'
+dna = 'ATGGCCTTT' 
 
 print('single loop')
 for i in range(len(dna)):
