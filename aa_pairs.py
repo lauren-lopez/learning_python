@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 # Print out all the unique pairwise amino acid combinations
-# AC is the same as CA 
+# AC is the same as CA
 # Skip AA, CC etc.
 # Also print out how many combinations there are
 
