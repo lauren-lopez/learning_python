@@ -18,7 +18,7 @@ for i in range(s, len(seq)-w+1): #doesn't work - prints total number GC
     gc_count = 0
 
 
-#Failed attempts below - kept for future reference
+#Failed attempts below - kept for future reference 
 #for i in range(s, len(seq)-w+1): #doesn't work - prints total number GC
 #    for c in seq:
 #        if c == 'G' or c == 'C': gc_count += 1
