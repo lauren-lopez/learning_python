@@ -16,7 +16,7 @@ gc = 0
 for nt in range(0, w):
     if seq[nt] == 'G' or seq[nt] == 'C':
         gc += 1
-print(f'%d %s %.4f' % (0, seq[nt:nt+w], gc/w))
+print(f'%d %s %.4f' % (0, seq[0:w], gc/w))
 
 for nt in range(s, len(seq) -w+1, s):
     prev = seq[nt-s: nt]
