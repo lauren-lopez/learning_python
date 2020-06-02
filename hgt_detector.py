@@ -72,24 +72,3 @@ kl_distance = sorted(kl_distance.items(), key = lambda x: x[1], reverse = True)
 
 for kld in kl_distance:    
     print(f'Locus ID:{kld[0]}\tKL Distance:{kld[1]:.3f}')
-
-    
-
-
-
-# for each locus, take the codon count and divide by number of possible codons (len(seq)/3)
-
-
-
-
-
-
-
-
-
-
-    #pseudocount - add 1 to all codon counts (like a baseline)
-    #codon probabilities - divide by num codons in each gene individually
-    #codon probabilities for entire genome - divide by all codons seen
-    #P = codon probability for whole genome
-    #Q = codon probaility for each gene
